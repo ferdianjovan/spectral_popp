@@ -30,7 +30,7 @@ The University of Birmingham Dataset
 
 The dataset is a collection of counts over time from three different person detectors attached to a mobile robot. The detectors are a leg detector (leg.yaml), an upper body detector (upper_body.yaml), and a change detector (scene.yaml). The dataset was gathered during a 69-day deployment from the lower-ground floor of a computer science building at the University of Birmingham. The mobile robot counts and observes the number of people passing by as it patrols around the perimeters of the lower-ground floor. Map is shown below.
 
-![marker](https://github.com/ferdianjovan/spectral_popp/doc/map.png)
+![marker](https://github.com/ferdianjovan/spectral_popp/blob/master/doc/map.png)
 
 Each minute, each detector stores the timestamp of that minute where the detection was made (if there was a positive detection, i.e., there was an activity within that minute). The ground truth of each detection is stored in "present_activity.yaml" for the positive event (activity happened within a minute interval) and "absent_activity.yaml" for the negative event (no activity happened within a minute interval).  "observation_history.yaml" stores information where and when the robot was observing. 
 
